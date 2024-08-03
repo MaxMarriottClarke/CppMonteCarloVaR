@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions">
+      <UniqueIdentifier>{b1d4ebca-fc64-4da8-8a5d-5857874b3f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\BinomTreeFunctions">
+      <UniqueIdentifier>{df803ec0-a653-4c15-b4dd-67bdeb928182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeneralClassesAndFunctions">
+      <UniqueIdentifier>{21e56728-767c-4d6d-bdc4-893f3a5719c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimulationEngines">
+      <UniqueIdentifier>{e4f1638a-55ff-4a99-b5f3-8ff223a59d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions">
+      <UniqueIdentifier>{bd0f47fc-75cd-4bb8-ae79-25cf0e3c247a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\BinomialTreeFunctions">
+      <UniqueIdentifier>{cc0d5f6c-9f78-4402-95c7-c101dfb88994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimulationEngines">
+      <UniqueIdentifier>{08996a09-3920-4a3c-ad47-6fe70ca286f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeneralClassesAndFunctions">
+      <UniqueIdentifier>{0aa86927-f9ea-42f8-be62-22c60df240fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\MonteCarloFunctions">
+      <UniqueIdentifier>{169cde9f-7f15-45a0-8bc0-9ad766b45e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\MonteCarloFunctions">
+      <UniqueIdentifier>{203b1638-712e-4fa3-bc0d-fddf274f14e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\Payoffs">
+      <UniqueIdentifier>{f15f1263-62ad-4aed-85c9-e343089e1d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\PayOffs">
+      <UniqueIdentifier>{f8775970-d3eb-447b-925d-9d5e1483adff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\BinomTreeFunctions\HelperFunctions">
+      <UniqueIdentifier>{54775bb2-9835-4741-9a10-a903268ee39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\BinomTreeFunctions\ValuationFunctions">
+      <UniqueIdentifier>{bf5e6e23-688c-4219-bdfe-5c2a64cf6c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions">
+      <UniqueIdentifier>{2c1f7b29-7d62-4b4b-aabd-9369848341e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions">
+      <UniqueIdentifier>{5f0f6c81-c213-4d7e-82ab-724b71bfed03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions">
+      <UniqueIdentifier>{72a2dcbd-20d1-40c6-a724-d3f3fd2222c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions">
+      <UniqueIdentifier>{0f1f8b95-f02e-4e14-b17b-a5e8186f1b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\BinomialTreeFunctions\HelperFunctions">
+      <UniqueIdentifier>{961428ec-d229-4dbe-b159-2eed13c3b822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\BinomialTreeFunctions\ValuationFunctions">
+      <UniqueIdentifier>{677c5e40-20ff-4226-8eb7-be5417747224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StaisticsGatherers">
+      <UniqueIdentifier>{7bb225e9-2d4f-4c77-b381-2b4828253dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StaisticsGatherers">
+      <UniqueIdentifier>{9fcc504f-a807-4f73-8a59-83f634b9e052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeneralClassesAndFunctions\enums">
+      <UniqueIdentifier>{fc48965d-5c1e-4cbc-998f-b98e3195f8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\ClosedFormFunctions">
+      <UniqueIdentifier>{f6f01bf8-158c-4980-884e-692587e4a485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\ClosedFormFunctions">
+      <UniqueIdentifier>{386f6f31-324b-493c-bbba-a7f1effa6058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions">
+      <UniqueIdentifier>{26ad24af-fac7-46a2-a6cc-27c93da62010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions">
+      <UniqueIdentifier>{a3e60e47-ef9d-4f3e-958a-4239f912edc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions">
+      <UniqueIdentifier>{318b4188-52e7-46d5-bb1a-285218436675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions">
+      <UniqueIdentifier>{55f9c868-d6f5-4963-9d52-3b07bc9429cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions">
+      <UniqueIdentifier>{8d9653fc-c907-419e-b48c-f7d3051d18a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions">
+      <UniqueIdentifier>{f2160ebd-b642-4630-8b55-fb6fc50f09a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\Payoffs\PathDependantPayOff">
+      <UniqueIdentifier>{8c88056d-d447-49e3-99d4-9d423d85e94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\PayOffs\PathDependantPayOff">
+      <UniqueIdentifier>{f604e689-ad17-4b4e-9b71-8b9277cb44c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option">
+      <UniqueIdentifier>{93f4950c-de8a-4cd4-8d13-a6d9a2a69e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options">
+      <UniqueIdentifier>{85d56e49-49b6-43da-ba34-df54c58b7b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\LookBackOptions">
+      <UniqueIdentifier>{2ebc1d5f-3b25-41d2-8ff8-cdbcfcbad87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option\LookbackOptions">
+      <UniqueIdentifier>{2b3f0bcb-5d1f-4873-85b6-45ce1a669ef4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main_MCValueAtRisk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\ValuationFunctions\AmericanCallFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\ValuationFunctions\AmericanPutFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Other\Arrays.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\BinomialTree.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Numerical\Cholezky.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\ConvergenceTable.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\FunctionCombiner.cpp">
+      <Filter>Source Files\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\InstrumentStatisticsGatherer.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MCEngine\MCEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloBasketOptionFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloRainbowOptionFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloVanillaOptionFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Numerical\Normals.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimulationEngines\OneStepBrownianMotion.cpp">
+      <Filter>Source Files\SimulationEngines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimulationEngines\OneStepBSEngine.cpp">
+      <Filter>Source Files\SimulationEngines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\FunctionHelpers\OneStepMonteCarloValuation.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffDoubleDigital.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffPowerOption.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Numerical\Random.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimulationEngines\BaseClass\SimulationEngine.cpp">
+      <Filter>Source Files\SimulationEngines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\FunctionHelpers\StandardExcerciseOption.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticsCompiler.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Numerical\TimeSeriesHandler.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\TreeAmerican.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\TreeEuropean.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\TreeProducts.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BaseClass\valuationFunction.cpp">
+      <Filter>Source Files\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffCall.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffForward.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffPut.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffStock.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\BinomTreeFunctions\ValuationFunctions\AmericanGeneralPayOffFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\BinomialTreeFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions\BondFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\BSCallFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\BSPutFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\EquityForwardFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions\FRAFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions\FXForwardFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions\InterestRateSwapFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\StockPriceFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions\FixedForFixedFXSwapFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Numerical\Combinatorics.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\General\Numerical\BinomialTest.cpp">
+      <Filter>Source Files\GeneralClassesAndFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BackTest\BackTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffCallRelative.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffPutRelative.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PayOffRelPerformance.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\OutPerformanceFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloOutPerformanceOptionFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticsRelVaR.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticsRelES.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticsQuantiles.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticsMean.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticsAbsVaR.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsGatherers\StatisticAllPaths.cpp">
+      <Filter>Source Files\StaisticsGatherers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\FunctionHelpers\PathDependantOption.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\FunctionHelpers\DiscretizedPathMonteCarloValuation.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloPathDependantOptionFunction.cpp">
+      <Filter>Source Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\PayOffCallPathDependant.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffCallGeometricMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffCallStrikeArithmeticMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffCallStrikeGeometricMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffCallAirthmeticMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffPutArithmeticMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffPutGeometricMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffPutStrikeArithmeticMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Asian options\PayOffPutStrikeGeometricMean.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Lookback Options\PayOffLookbackCallFixed.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option\LookbackOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Lookback Options\PayOffLookbackCallFloating.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option\LookbackOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Lookback Options\PayOffLookbackPutFixed.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option\LookbackOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValuationFunctions\PayOffs\PathDependantPayOff\Lookback Options\PayOffLookbackPutFloating.cpp">
+      <Filter>Source Files\ValuationFunctions\PayOffs\PathDependantPayOff\Asian option\LookbackOptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\RiskFactors.h">
+      <Filter>Header Files\GeneralClassesAndFunctions\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RainbowOptionTypes.h">
+      <Filter>Header Files\GeneralClassesAndFunctions\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbsOrRelReturns.h">
+      <Filter>Header Files\GeneralClassesAndFunctions\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cholezky.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Normals.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeSeriesHandler.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Arrays.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ReadCSV.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Wrapper.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MCEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimulationEngine.h">
+      <Filter>Header Files\SimulationEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OneStepBrownianMotion.h">
+      <Filter>Header Files\SimulationEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OneStepBSEngine.h">
+      <Filter>Header Files\SimulationEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MCStatistics.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConvergenceTable.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticAllPaths.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsAbsVaR.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsCompiler.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsMean.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsQuantiles.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsRelES.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsRelVaR.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\valuationFunction.h">
+      <Filter>Header Files\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BinomialTree.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TreeAmerican.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TreeEuropean.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TreeProducts.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AmericanCallFunction.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AmericanGeneralPayOffFunction.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AmericanPutFunction.h">
+      <Filter>Header Files\ValuationFunctions\BinomTreeFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BSCallFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BSPutFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EquityForwardFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StockPriceFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FixedForFixedFXSwapFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FXForwardFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BondFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FRAFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InterestRateSwapFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FunctionCombiner.h">
+      <Filter>Header Files\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InstrumentStatisticsGatherer.h">
+      <Filter>Header Files\StaisticsGatherers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OneStepMonteCarloValuation.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StandardExcerciseOption.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MonteCarloBasketOptionFunction.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MonteCarloRainbowOptionFunction.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MonteCarloVanillaOptionFunction.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOff.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCall.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffDoubleDigital.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffForward.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPowerOption.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPut.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffStock.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BackTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BinomialTest.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Combinatorics.h">
+      <Filter>Header Files\GeneralClassesAndFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCallRelative.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPutRelative.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffRelPerformance.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OutPerformanceFunction.h">
+      <Filter>Header Files\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MonteCarloOutPerformanceOptionFunction.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DiscretizedPathMonteCarloValuation.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathDependantOption.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\HelperFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MonteCarloPathDependantOption.h">
+      <Filter>Header Files\ValuationFunctions\MonteCarloFunctions\ValuationFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCallAirthmeticMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathDependantPayOff.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCallPathDependant.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCallStrikeArithmeticMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCallGeometricMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffCallStrikeGeometricMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPutArithmeticMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPutGeometricMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPutStrikeArithmeticMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffPutStrikeGeometricMean.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\Asian Options</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffLookbackCallFixed.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\LookBackOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffLookbackCallFloating.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\LookBackOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffLookbackPutFixed.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\LookBackOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PayOffLookbackPutFloating.h">
+      <Filter>Header Files\ValuationFunctions\Payoffs\PathDependantPayOff\LookBackOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BarrierOptionTypes.h">
+      <Filter>Header Files\GeneralClassesAndFunctions\enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

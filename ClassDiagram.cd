@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BSCallFunction" Collapsed="true">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAEAAAAAAAAgAAAAEAAAAAAEAgABEBCAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\BSCallFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSPutFunction" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAEAAAAAAAAAAAAAUAAAAAAEAgABEBCAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\BSPutFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConvergenceTable" Collapsed="true">
+    <Position X="12.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAAAAAABAACACAAAAAAAAgAAAAAAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\ConvergenceTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionCombiner" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAEAAAAAAAAAAAAAEAAAAAAAAAAAEBABAAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\FunctionCombiner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCEngine">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAgAAAAAABAgAgAAAAAAAAAAAwAAAoEAAAAAIQUAA=</HashCode>
+      <FileName>include\MCEngine\MCEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MJArray" Collapsed="true">
+    <Position X="14.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAMEAAQgAAAAoAAAQACAAEAAAAAAQAgABAAAAA=</HashCode>
+      <FileName>include\general\Other\Arrays.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationEngine">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAICAQAEAIAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>include\SimulationEngines\baseClass\SimulationEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsCompiler" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticsCompiler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsMC">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgUAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\BaseClass\MCStatistics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsMean" Collapsed="true">
+    <Position X="11" Y="8" Width="1.5" />
+    <InheritanceLine Type="StatisticsMC" FixedFromPoint="true">
+      <Path>
+        <Point X="11.75" Y="6.623" />
+        <Point X="11.75" Y="6.998" />
+        <Point X="10.98" Y="6.998" />
+        <Point X="10.98" Y="7.969" />
+        <Point X="11.75" Y="7.969" />
+        <Point X="11.75" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAACAAAAAAAgABAAAAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticsMean.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockPriceFunction" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEEAAAAAAAAAAAAAEAAAAAAAAAAAEBCAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\StockPriceFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="valuationFunction">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAYAIAEAAAAADAAAAAAAEAgAAAAQAIAgEBAAAAQ=</HashCode>
+      <FileName>include\ValuationFunctions\BaseClass\valuationFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wrapper&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAIAAAAAAgAgAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\general\Other\Wrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsRelES" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACAAAAAAAAAAAAAAAAAoAAAAEAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticsRelES.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmericanCallFunction" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAEAAAAAAAAAAQAAEAAAAAAEAgABEBCAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\BinomTreeFunctions\ValuationFunctions\AmericanCallFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmericanPutFunction" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAEAAAAAAAAAAAAAEAAAAAAEAgABEBCAAAI=</HashCode>
+      <FileName>include\ValuationFunctions\BinomTreeFunctions\ValuationFunctions\AmericanPutFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PayOffCall" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAACgAAQAAAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\PayOffs\PayOffCall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PayOffPut" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAEAAAAAAAAAAKAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\PayOffs\PayOffPut.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBinomialTree" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAABAAAAAAAAAAAAAAAAAAAABAABAAAMAkgBBAAAAQA=</HashCode>
+      <FileName>include\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\BinomialTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsQuantiles" Collapsed="true">
+    <Position X="12.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAAAAAAAAAAAAAAAoAAAAEAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticsQuantiles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsRelVaR" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAQAAAAAAAAAAAAoAAAAEAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticsRelVaR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeAmerican" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAEAJAAAAAAAAQAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\TreeAmerican.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeEuropean" Collapsed="true">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQEAAAAAAAAAEAAAAAgAAAAQAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\TreeEuropean.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeProduct" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAEAAAAAAgAAAAEgAAAAAAAQAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\BinomTreeFunctions\FunctionHelpers\TreeProducts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BondFunction" Collapsed="true">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAEAAAAAAAAAAAAYEAAAAAAAEAAAEBAAAAE=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions\BondFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquityForwardFunction" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAEAAAAAAAAAAAAAEAAAAAAEAgABEBCAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\EquityDerivativeFunctions\EquityForwardFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedForFixedFXSwapFunction" Collapsed="true">
+    <Position X="7" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEIAAAEgAAAAgAAEAAAAACAAAAAEBAAAgA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions\FixedForFixedFXSwapFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FRAFunction" Collapsed="true">
+    <Position X="7" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAEAAAAAAAAAAAAAEQAAAAAAAAABEBABAIA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions\FRAFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FXForwardFunction" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAEgCAEBAAQAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\FXDerivativeFunctions\FXForwardFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InstrumentStatisticsGatherer">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAAAAAAAAAAAAAAQAEAACAAAAAACAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\InstrumentStatisticsGatherer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterestRateSwapFunction" Collapsed="true">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAIABAAEAAAAACAAAAAEBABAAQ=</HashCode>
+      <FileName>include\ValuationFunctions\ClosedFormFunctions\InterestRateDerivativeFunctions\InterestRateSwapFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonteCarloBasketOptionFunction" Collapsed="true">
+    <Position X="7" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAEAAAAAAAAAAAMAEAACAAAiAAIBEBAAAQA=</HashCode>
+      <FileName>include\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloBasketOptionFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonteCarloRainbowOptionFunction" Collapsed="true">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAEAAAAAAAAAAAIAEAgCAAAgAAIBEBAAgQA=</HashCode>
+      <FileName>include\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloRainbowOptionFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonteCarloVanillaOptionFunction" Collapsed="true">
+    <Position X="4" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAEAAAAAAAAAAAEAUAAAAAAEAAIBEBCAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\MonteCarloFunctions\ValuationFunctions\MonteCarloVanillaOptionFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OneStepBrownianMotionEngine" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAQEAIAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>include\SimulationEngines\OneStepBrownianMotion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OneStepBSEngine" Collapsed="true">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAEAIAAAAAAAAAAQAEAAAAAA=</HashCode>
+      <FileName>include\SimulationEngines\OneStepBSEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PayOffForward" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEIAAAAAAAAACAAAAAAAAEAAIAAA=</HashCode>
+      <FileName>include\ValuationFunctions\PayOffs\PayOffForward.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PayOffStock" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\PayOffs\PayOffStock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardExcerciseOption" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAQAAFAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\MonteCarloFunctions\FunctionHelpers\StandardExcerciseOption.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticAllPaths" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAAAAAAAAAAAAAAAAAAAAAQoAAAAAAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticAllPaths.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticsAbsVaR" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAABAAAAAAAAAAAoAAAAEAgEAAAAAA=</HashCode>
+      <FileName>include\StatisticsGatherers\StatisticsAbsVaR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeriesHandler" Collapsed="true">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAAAEAAABAAAAAADAAQACAAgABAAEAQAAAE=</HashCode>
+      <FileName>include\general\Numerical\TimeSeriesHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PayOff" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAEEAAAAA=</HashCode>
+      <FileName>include\ValuationFunctions\PayOffs\BaseClass\PayOff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AbsOrRel" Collapsed="true">
+    <Position X="14.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\enums\AbsOrRelReturns.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RainbowOptionType" Collapsed="true">
+    <Position X="16.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\enums\RainbowOptionTypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RiskFactor" Collapsed="true">
+    <Position X="14.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAeQEAAAAAAAAAAIAAAAAAAAACAAA=</HashCode>
+      <FileName>include\enums\RiskFactors.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
