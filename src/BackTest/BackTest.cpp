@@ -1,4 +1,4 @@
-#include "BackTest.hpp"
+#include "BackTest.h"
 #include "MCEngine.h"
 #include "InstrumentStatisticsGatherer.h"
 #include "BinomialTest.h"
